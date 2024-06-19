@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(to right,aqua,blue,rgb(204, 17, 148));
+}
+.box{
+    box-sizing:border-box ;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    border-radius: 8px;
+    background-color: white;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 400px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lab{
+    padding-left: 70px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.material-symbols-outlined{
+    position: relative;
+    bottom: 90;
+    left: 50px;
+
+}
+.inputfield{
+    width: 70%;
+    height: 80px;
+    padding-left: 20px;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: x-large;
+    border: none;
+    border-bottom: 1px solid black;
+}  
+.inputfield:focus{
+    outline:none;
+    border-bottom: 3px solid purple;
+}
+.but{
+    width: 50%;
+    padding: 5px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient( to right,rgb(34, 231, 238),rgb(5, 221, 167),rgb(183, 0, 255));
+    color: white;
+    font-size: x-large;
+    position: relative;
+    top: 50px;
+    left: 130px;
+}
+.pass{
+    position: relative;
+    font-size: x-large;
+    left: 59%;
+    top: 10px;
+}
